@@ -4,7 +4,13 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Scanner;
-
+/**
+ * Name: Yi Chou
+ * CptS 233: microAssignment #1
+ * Date: 09/02/2020
+ * gitRepo url:https://github.com/luuis11/CPTS233.git
+ * 
+ */
 
 public class PA1 {
     public static void main(String[] args) throws IOException {
