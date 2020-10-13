@@ -1,9 +1,11 @@
+/**
+ * * Name: Yi Chou
+ * CptS 233: microAssignment #1
+ * Date: 09/02/2020
+ * gitRepo url:https://github.com/luuis11/CPTS233.git
+ */
+
 public class MA2 {
-    public static void main(String[] args){
-        
-    }
-    
-}
 // Java program to illustrate the sum of two numbers 
 
 // A BTree 
