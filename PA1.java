@@ -4,13 +4,18 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Scanner;
-
+/**
+ * Name: Yi Chou
+ * CptS 233: microAssignment #1
+ * Date: 09/02/2020
+ * gitRepo url:https://github.com/luuis11/CPTS233.git
+ * 
+ */
 
 public class PA1 {
     public static void main(String[] args) throws IOException {
         LinkedList<Integer> list = new LinkedList<Integer>();
         LinkedList<Double> list2 = new LinkedList<Double>();
-        System.out.println("enter the filename: java");
         System.out.println("time insert: " + TimeInsert(getFileName(),list,list2));
         System.out.println("Max:" + getMax(list));
         System.out.println("Min: " + getMin(list));
@@ -18,12 +23,13 @@ public class PA1 {
         System.out.println("Max time:" + getMaxTime(list2));
         System.out.println("Min time: " + getMinTime(list2));
         System.out.println("Med time: " + getMedTime(list2));
-
-
+        
+        
     }
-
+    
     public static String getFileName() {
         Scanner input = new Scanner(System.in);
+        System.out.println("enter the filename: ");
         String fileName = input.next();
         input.close();
         return fileName;
